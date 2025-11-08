@@ -1,0 +1,22 @@
+<div id="weight-form" class="form-wrapper">
+    <h1 id="title" >Enter the weight to convert </h1>
+    <form id="weight-conversion-form" onsubmit="convert(event, 'weight')">
+        <label for="weight-value"></label>
+        <input type="number" id="weight-value" required>
+        <label for="temperature-value">Unit to convert from</label>
+        <select id="weight-from">
+            <option value="grams">Grams</option>
+            <option value="kilograms">Kilograms</option>
+            <option value="pounds">Pounds</option>
+            <option value="ounces">Ounces</option>
+        </select>
+        <label for="temperature-value">Unit to convert to</label>
+        <select id="weight-to">
+            <option value="grams">Grams</option>
+            <option value="kilograms">Kilograms</option>
+            <option value="pounds">Pounds</option>
+            <option value="ounces">Ounces</option>
+        </select>
+        <button type="submit">Convert</button>
+    </form>
+</div>
