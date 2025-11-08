@@ -22,4 +22,4 @@ The Unit Converter web app allows users to convert between length, weight, and t
 **Now Open the `index.html` file via any browser**
 
 ## Live Demo
-- You can view working demo [here](https://github.com/olamidelaw/Unit-converter.git)
+- You can view working demo [here](https://unit-converter-minn.onrender.com)
